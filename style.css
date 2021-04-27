@@ -35,3 +35,81 @@ h1{
 .references{
 
 }
+
+.widget {
+    margin-bottom: .75em;
+    margin: 0 0 2.5em;
+    background: #fff;
+    font-size: 0.98em;
+}
+
+.custom-html-widget{
+  padding: 0;
+}
+
+.widget-menu__title {
+    padding: 10px;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.ct {
+    text-align: center;
+}
+
+.main-color {
+    background-color: #f89174;
+}
+
+.widget-menu {
+    text-align: center;
+}
+
+.dfont {
+    font-family: "Quicksand","Helvetica", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", YuGothic, "Yu Gothic", "メイリオ", Meiryo, sans-serif;
+}
+
+.cf {
+    zoom: 1;
+}
+
+.cf:before, .cf:after {
+    display: table;
+    content: "";
+}
+
+.wrapper {
+ display: flex;
+ max-width: 1600px;
+ min-width: 980px;
+ margin: 0 auto;
+ padding: 0 20px;
+}
+main {
+ flex: 1;
+ margin: 0 20px;
+ width: 69%;
+}
+aside {
+ width: 31%;
+}
+
+@media screen and (max-width: 480px) {
+ .wrapper {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  min-width: initial;
+ }
+ main {
+  margin: 0;
+ }
+ aside {
+  width: 100%;
+ }
+}
