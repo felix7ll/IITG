@@ -41,6 +41,10 @@ body {
 	color: #808080;
 }
 
+.gurei{
+	color: #8a8a8a;
+}
+
 hr.dotted {
     border-top: dotted 2px #dadada;
 }
@@ -3342,7 +3346,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #FFBC61;
 		}
 
 		.wrapper.style1-alt {
@@ -3350,7 +3354,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #FFEED5;
 		}
 
 		.wrapper.style2-alt {
