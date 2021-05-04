@@ -36,6 +36,22 @@ body {
     margin: 1.5em 0;
     overflow: hidden;
 }
+
+.moji{
+	color: #808080;
+}
+
+hr.dotted {
+    border-top: dotted 2px #dadada;
+}
+hr {
+    margin: 0.5em 0;
+    border: solid 3px #dadada;
+    border-width: 2px 0 0 0;
+		box-sizing: content-box;
+    height: 0;
+}
+
 .saysprp .faceicon {
     padding-right:0;
 }
